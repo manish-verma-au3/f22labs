@@ -1,0 +1,91 @@
+.Rectangle {
+
+    
+   overflow-x: hidden;
+   align-items: center;
+    height: 109px;
+    background-color: #ffffff;
+
+  }
+
+  .Web-box {
+    background-color: #f5f7fc;
+  }
+  .detail-Web-box {
+    background-color: #f5f7fc;
+    height: 1866px;
+    
+  }
+
+  .Rectangle-Copy {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1280px;
+    height: 1866px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+  .Rectangle-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ff8896;
+  }
+
+  .header-Rectangle-button{
+    width: 157px;
+    height: 49px;
+    border-radius: 1px;
+    background-color: #ff8896;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    grid-column-gap: 80px;
+    grid-row-gap: 40px;
+  }
+  .grid-item {
+   
+    padding: 2px;
+    
+  }
+
+  /* Media-queries */
+
+  @media all and (max-width:499px){
+
+    .Rectangle-button {
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+      background-color: #ff8896;
+    }
+    .Rectangle {
+
+    
+      overflow-x: hidden;
+      align-items: center;
+       height: 80px;
+       background-color:#201d5e;
+   
+     }
+
+     .grid-container {
+      display: grid;
+      grid-template-columns: auto ;
+      /* background-color: #2196F3; */
+      padding: 10px;
+      grid-row-gap: 40px;
+    }
+    .grid-item {
+     
+      padding: 2px;
+      
+    }
+   
+  }
