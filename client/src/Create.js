@@ -80,7 +80,7 @@ const  cat  = [
     return (
     <div>
        {/* Media-query */}
-       <Media queries={{ small: { maxWidth: 499 } }}>
+       <Media queries={{ small: { maxWidth: 599 } }}>
           {matches =>
             matches.small ? (
                 <Container fluid>
